@@ -15,7 +15,6 @@ def make_tag(isOpen,tag_name):
         return close
     
 
-result= make_tag(True,"h1") + content + make_tag(False,"h1")
-
-
-print(result)
+for i in range(100):
+    result= make_tag(True,"h1") + content + make_tag(False,"h1")
+    print(result)
